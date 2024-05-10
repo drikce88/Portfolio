@@ -1,0 +1,31 @@
+@import "../../styles/mixins.scss";
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    @include bg-color;
+    height: 100px;
+    width: 100%;
+    
+    
+    
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    & a {
+        text-decoration: none;
+        @include font-color;
+        font-size: large;
+        font-weight: bold;
+    }
+}

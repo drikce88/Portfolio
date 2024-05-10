@@ -1,0 +1,14 @@
+@import "../../styles/mixins.scss";
+
+
+.about {
+    @include font-color2;
+    display: flex;    
+    justify-content: center;    
+    @include bg-color2;
+    height: 800px;
+}
+
+h1 {
+    padding-top: 30px;
+}
