@@ -1,0 +1,38 @@
+.loader-matrix-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loader-matrix {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: green;
+  }
+  
+  .matrix-row {
+    display: flex;
+  }
+  
+  .matrix-character {
+    opacity: 0;
+    animation: matrix-fall 1s infinite linear;
+  }
+  
+  @keyframes matrix-fall {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
