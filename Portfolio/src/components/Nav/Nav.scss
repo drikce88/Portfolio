@@ -7,6 +7,8 @@
     @include bg-color;
     height: 100px;
     width: 100%;
+    position: sticky;
+    top: 0;
     
     
     
@@ -36,6 +38,12 @@
         0 0 6px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
         0 0 8px rgba(28, 101, 25, 0.8); // Augmentation de l'opacité
 }
+
+    @media screen and (max-width: 900px) {
+        gap: 0;
+        
+        
+    }
 
         
     }
