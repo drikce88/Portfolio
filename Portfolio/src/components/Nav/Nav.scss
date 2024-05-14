@@ -31,9 +31,16 @@
 
     }
     & a:hover {
-        border: 2px solid #23861E;
-        border-radius: 10px;
-        
-    }
+        text-shadow: 0 0 2px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
+        0 0 4px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
+        0 0 6px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
+        0 0 8px rgba(28, 101, 25, 0.8); // Augmentation de l'opacité
 }
 
+        
+    }
+
+    
+    
+
+    
