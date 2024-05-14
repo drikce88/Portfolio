@@ -2,7 +2,7 @@ import portrait from '../../assets/images/moi.webp';
 
 export default function About() {
     return (
-        <section className="about">
+        <section id='about' className="about">
             <h1>Cédric Ransinangue, développeur web</h1>
             <div className="bloc-portrait">
                 <div className="portrait-container">

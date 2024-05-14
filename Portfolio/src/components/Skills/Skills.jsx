@@ -15,7 +15,7 @@ export default function Skills() {
     ];
 
     return (
-        <section className="skills">
+        <section id='skills' className="skills">
             <h2>Compétences</h2>
             <div className="skills-container">
                 {skills.map((skill, index) => (
