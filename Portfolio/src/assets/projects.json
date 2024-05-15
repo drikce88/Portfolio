@@ -1,0 +1,58 @@
+[
+    {
+        "nom": "Booki",
+        "image": "../src/assets/images/booki.webp",
+        "technologies": ["HTML5", "CSS3"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/Booki_Ransinangue_Cedric.git"
+    },
+    {
+        "nom": "ohmyfood",
+        "image": "../src/assets/images/ohmyfood.webp",
+        "technologies": ["HTML5", "CSS3", "SASS"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/ohmyfood.git"
+    },
+    {
+        "nom": "Print-it",
+        "image": "../src/assets/images/print-it.webp",
+        "technologies": ["HTML5", "CSS3", "JAVASCRIPT"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/Print-it-JS-main.git"
+    },
+    {
+        "nom": "Sophie Bluel",
+        "image": "../src/assets/images/sophie.webp",
+        "technologies": ["HTML5", "CSS3", "JAVASCRIPT"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/Portfolio-architecte-sophie-bluel.git"
+    },
+    {
+        "nom": "Kasa",
+        "image": "../src/assets/images/kasa.webp",
+        "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "REACT"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/Kasa.git"
+    },
+    {
+        "nom": "Nina Carducci",
+        "image": "../src/assets/images/nina.webp",
+        "technologies": ["HTML5", "CSS3", "JAVASCRIPT"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/ninacarducci.github.io-main.git"
+    },
+    {
+        "nom": "724events",
+        "image": "../src/assets/images/724events.webp",
+        "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "REACT"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/724events.git"
+    },
+    {
+        "nom": "ArgentBank",
+        "image": "../src/assets/images/argentbank.webp",
+        "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "REACT"],
+        "description": "",
+        "lienGitHub": "https://github.com/drikce88/ArgentBank.git"
+    }
+]

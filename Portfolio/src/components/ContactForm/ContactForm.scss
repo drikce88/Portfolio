@@ -1,0 +1,17 @@
+@import "../../styles/mixins.scss";
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include bg-color;
+    @include font-color;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
