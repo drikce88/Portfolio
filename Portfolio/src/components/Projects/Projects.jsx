@@ -15,7 +15,7 @@ export default function Projects() {
     }
 
     return (
-        <section className="projects">
+        <section id='projects' className="projects">
             <h2>Projets</h2>
             <div className="projects-container">
                 {currentItems.map((project, index) => (

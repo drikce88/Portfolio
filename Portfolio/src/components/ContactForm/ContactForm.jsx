@@ -14,7 +14,7 @@ export default function ContactForm() {
     }
 
     return (
-        <section className='contact-section'>
+        <section id='contact' className='contact-section'>
             <h2>Contact</h2>
         <form className='contact-form' onSubmit={sendEmail}>
             <label htmlFor="name">Nom :</label>
