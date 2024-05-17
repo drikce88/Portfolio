@@ -29,8 +29,9 @@
     flex-basis: calc(50% - 50px); // Affiche deux cartes par ligne avec un espace de 10px
 
     @media (max-width: 600px) {
-        flex-basis: 80%; // Affiche une carte par ligne sur les petits écrans
+        flex-basis: calc(100% - 50px);
         height: 300px;
+        margin-left: 5%;
         
 }
  }

@@ -22,7 +22,7 @@ export default function Projects() {
                     <div key={index} className="project-card">
                         <img className='project-img' src={project.image} alt={`${project.nom} logo`} />
                         <h2>{project.nom}</h2>
-                        <p>{project.technologies.join(', ')}</p>
+                        <p>Technologies utilisées : {project.technologies.join(', ')}</p>
                         <a href={project.lienGitHub} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
                     </div>
                 ))}
