@@ -1,5 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import github from '../../assets/images/github.webp';
+import linkedin from '../../assets/images/linkedin.webp';
 
 export default function ContactForm() {
     function sendEmail(e) {
@@ -28,6 +30,11 @@ export default function ContactForm() {
 
             <button type="submit">Envoyer</button>
         </form>
+        <div>
+            <h3>Retrouver moi aussi sur :</h3>
+            <a href="https://github.com/drikce88" target="_blank" rel="noopener noreferrer"><img src={github} alt="Logo Github" /></a>
+            <a href="https://www.linkedin.com/in/cedric-rsng-123850291/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Logo Linkedin" /></a>
+        </div>
         </section>
     );
 }

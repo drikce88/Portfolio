@@ -6,6 +6,10 @@
     align-items: center;
     @include bg-color;
     @include font-color;
+
+    h2 {
+        font-size: 2em;
+    }
 }
 
 .contact-form {

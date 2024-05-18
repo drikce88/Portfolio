@@ -8,19 +8,23 @@
     display: flex;    
     justify-content: center;    
     @include bg-color2;
-    height: 800px;
+    min-height: 800px;
     width: 100%;
+    
     
 }
 
 h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     @include font-color2;
     font-size: 50px;
     margin-top: -5%;
     @media screen and (max-width: 900px) {
         font-size: 30px;
+        margin-top: 5%;
+        
       
        
         

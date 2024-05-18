@@ -6,6 +6,10 @@
     align-items: center;
     @include bg-color2;
     @include font-color2;
+
+    h2 {
+        font-size: 2em;
+    }
 }
 
 .projects-container {
