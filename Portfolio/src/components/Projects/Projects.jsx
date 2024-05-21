@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import projects from '../../assets/projects.json';
+import github from '../../assets/images/github.webp';
 
 export default function Projects() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -22,8 +23,11 @@ export default function Projects() {
                     <div key={index} className="project-card">
                         <img className='project-img' src={project.image} alt={`${project.nom} logo`} />
                         <h2>{project.nom}</h2>
-                        <p>Technologies utilisées : {project.technologies.join(', ')}</p>
-                        <a href={project.lienGitHub} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
+                        <div className='info'>
+                        <p><span className='info-type'>Technologies utilisées :</span> {project.technologies.join(', ')}</p>
+                        <p><span className='info-type'>Description:</span> {project.description}</p>
+                        </div>
+                        <a className='project-link' href={project.lienGitHub} target="_blank" rel="noopener noreferrer"><img src={github} alt="Logo Github" /></a>
                     </div>
                 ))}
             </div>

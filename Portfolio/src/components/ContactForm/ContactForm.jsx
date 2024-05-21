@@ -16,8 +16,9 @@ export default function ContactForm() {
     }
 
     return (
-        <section id='contact' className='contact-section'>
+        <footer id='contact' className='contact-section'>
             <h2>Contact</h2>
+            <div className='contact-container'>
         <form className='contact-form' onSubmit={sendEmail}>
             <label htmlFor="name">Nom :</label>
             <input type="text" id="name" name="name" required />
@@ -26,15 +27,16 @@ export default function ContactForm() {
             <input type="email" id="email" name="email" required />
 
             <label htmlFor="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea className='message-input' id="message" name="message" required></textarea>
 
-            <button type="submit">Envoyer</button>
+            <button className='send-button' type="submit">Envoyer</button>
         </form>
-        <div>
+        <div className='socialNetworks'>
             <h3>Retrouvez-moi aussi sur :</h3>
-            <a href="https://github.com/drikce88" target="_blank" rel="noopener noreferrer"><img src={github} alt="Logo Github" /></a>
-            <a href="https://www.linkedin.com/in/cedric-rsng-123850291/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Logo Linkedin" /></a>
+            <a className='socialNetwork' href="https://github.com/drikce88" target="_blank" rel="noopener noreferrer"><img src={github} alt="Logo Github" /></a>
+            <a className='socialNetwork' href="https://www.linkedin.com/in/cedric-rsng-123850291/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Logo Linkedin" /></a>
         </div>
-        </section>
+        </div>
+        </footer>
     );
 }
