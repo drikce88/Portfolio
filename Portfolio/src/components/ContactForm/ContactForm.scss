@@ -85,3 +85,27 @@
     
 }
 
+.modal {
+    @include bg-color2;
+    @include font-color2;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+    & button {
+        @include bg-color;
+        @include font-color;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+    }
+}
+

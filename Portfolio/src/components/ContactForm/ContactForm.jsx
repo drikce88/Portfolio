@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import github from '../../assets/images/github.webp';
 import linkedin from '../../assets/images/linkedin.webp';
 
 export default function ContactForm() {
+    const [showModal, setShowModal] = useState(false);
+
     function sendEmail(e) {
         e.preventDefault();
 
         emailjs.sendForm('service_za0xmpw', 'template_qxpd139', e.target, 'Y8YvzrZ4AY7T3xpal')
             .then((result) => {
                 console.log(result.text);
+                e.target.reset(); // Efface les champs de saisie
+                setShowModal(true); // Affiche la modal
             }, (error) => {
                 console.log(error.text);
             });
@@ -31,6 +35,12 @@ export default function ContactForm() {
 
             <button className='send-button' type="submit">Envoyer</button>
         </form>
+        {showModal && (
+                    <div className='modal'>
+                        <p>Votre message a été envoyé avec succès !</p>
+                        <button onClick={() => setShowModal(false)}>Fermer</button>
+                    </div>
+                )}
         <div className='socialNetworks'>
             <h3>Retrouvez-moi aussi sur :</h3>
             <a className='socialNetwork' href="https://github.com/drikce88" target="_blank" rel="noopener noreferrer"><img src={github} alt="Logo Github" /></a>
