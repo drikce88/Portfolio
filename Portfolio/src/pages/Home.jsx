@@ -10,9 +10,11 @@ const Home = () => {
         <>
         <LoaderMatrix />
         <Nav />
+        <main>
         <About />
         <Skills />
         <Projects />
+        </main>
         <ContactForm />
         
         </>
