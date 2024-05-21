@@ -1,63 +1,51 @@
 @import "../../styles/mixins.scss";
 
-
 .nav {
-    display: flex;
-    flex-direction: row;
-    @include bg-color;
-    height: 100px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    box-shadow: 4px 4px 4px rgba(10, 79, 1, 0.8);
-    
-    
-    
-    
+  display: flex;
+  flex-direction: row;
+  @include bg-color;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  box-shadow: 4px 4px 4px rgba(10, 79, 1, 0.8);
 }
 
 .nav-list {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0;
-    margin: 0;
-    gap: 1rem;
-    & a {
-        text-decoration: none;
-        @include font-color;
-        font-size: large;
-        font-weight: bold;
-        padding: 10px;
-        @media screen and (max-width: 900px) {
-            font-size: 15px;
-        }
-
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+  & a {
+    text-decoration: none;
+    @include font-color;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    @media screen and (max-width: 900px) {
+      font-size: 15px;
     }
-    & a:hover {
-        text-shadow: 0 0 2px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
-        0 0 4px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
-        0 0 6px rgba(28, 101, 25, 0.8),  // Augmentation de l'opacité
-        0 0 8px rgba(28, 101, 25, 0.8); // Augmentation de l'opacité
+  }
+  & a:hover {
+    text-shadow: 0 0 2px rgba(28, 101, 25, 0.8),
+      // Augmentation de l'opacité
+      0 0 4px rgba(28, 101, 25, 0.8),
+      // Augmentation de l'opacité
+      0 0 6px rgba(28, 101, 25, 0.8),
+      // Augmentation de l'opacité
+      0 0 8px rgba(28, 101, 25, 0.8); // Augmentation de l'opacité
+  }
+
+  @media screen and (max-width: 900px) {
+    gap: 0;
+  }
 }
 
-    @media screen and (max-width: 900px) {
-        gap: 0;
-        
-        
-    }
-
-        
-    }
-
-    * {
-        scroll-behavior: smooth;
-    }
-
-    
-    
-
-    
+* {
+  scroll-behavior: smooth;
+}

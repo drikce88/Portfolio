@@ -1,111 +1,103 @@
 @import "../../styles/mixins.scss";
 
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @include bg-color;
-    @include font-color;
-    min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include bg-color;
+  @include font-color;
+  min-height: 450px;
 
-    h2 {
-        font-size: 2em;
-    }
+  h2 {
+    font-size: 2em;
+  }
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
-    border-radius: 25px;
-    padding: 20px;
-    width: 250px;
-    
-     & label {
-        margin-bottom: 5px;
-        margin-top: 5px;
-        font-weight: bold;
-       
-    }  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+  border-radius: 25px;
+  padding: 20px;
+  width: 250px;
+
+  & label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
 }
 
 .message-input {
-    height: 100px;
+  height: 100px;
 }
 
 .send-button {
+  @include bg-color;
+  @include font-color;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+  margin-top: 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.socialNetworks {
+  box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+  border-radius: 25px;
+  padding: 20px;
+  height: 150px;
+  @media screen and (max-width: 600px) {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+.socialNetwork {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+  margin-top: 30px;
+
+  img {
+    width: 60px;
+  }
+}
+
+.modal {
+  @include bg-color2;
+  @include font-color2;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  font-weight: bold;
+  & button {
     @include bg-color;
     @include font-color;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
-    margin-top: 20px;
+  }
 }
-
-.contact-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    @media screen and (max-width: 600px) {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-.socialNetworks {
-    box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
-    border-radius: 25px;
-    padding: 20px;
-    height: 150px;
-    @media screen and (max-width: 600px) {
-        margin-top: 30px;
-        margin-bottom: 50px;
-        
-    }
-}
-
-
-.socialNetwork {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100px;
-    margin-top: 30px;
-   
-    
-    
-
-    img {
-        width: 60px;
-    }
-    
-}
-
-.modal {
-    @include bg-color2;
-    @include font-color2;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    z-index: 100;
-    box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
-    border-radius: 20px;
-    padding: 20px;
-    font-weight: bold;
-    & button {
-        @include bg-color;
-        @include font-color;
-        padding: 5px 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
-    }
-}
-

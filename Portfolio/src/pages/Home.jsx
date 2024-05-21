@@ -5,19 +5,17 @@ import Skills from "../components/Skills/Skills.jsx";
 import Projects from "../components/Projects/Projects.jsx";
 import ContactForm from "../components/ContactForm/ContactForm.jsx";
 const Home = () => {
-
-    return (
-        <>
-        <LoaderMatrix />
-        <Nav />
-        <main>
+  return (
+    <>
+      <LoaderMatrix />
+      <Nav />
+      <main>
         <About />
         <Skills />
         <Projects />
-        </main>
-        <ContactForm />
-        
-        </>
-    )
-}
+      </main>
+      <ContactForm />
+    </>
+  );
+};
 export default Home;
