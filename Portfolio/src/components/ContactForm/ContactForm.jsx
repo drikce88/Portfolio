@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import github from "../../assets/images/github.webp";
-import linkedin from "../../assets/images/linkedin.webp";
+import github from "../../../public/assets/images/github.webp";
+import linkedin from "../../../public/assets/images/linkedin.webp";
 
 export default function ContactForm() {
   const [showModal, setShowModal] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import projects from "../../../src/projects.json";
-import github from "../../assets/images/github.webp";
+import github from "../../../public/assets/images/github.webp";
 
 export default function Projects() {
   const [currentPage, setCurrentPage] = useState(1);
