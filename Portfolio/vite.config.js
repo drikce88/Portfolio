@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/Portfolio/',
   build: {
-    assetsDir: 'assets',
+    assetsDir: 'assets/images',
     rollupOptions: {
       input: {
         main: 'src/main.jsx'
