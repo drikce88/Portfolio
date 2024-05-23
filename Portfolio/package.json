@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://drikce88.github.io/Portfolio/",
+  "homepage": "https://drikce88.github.io/Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
