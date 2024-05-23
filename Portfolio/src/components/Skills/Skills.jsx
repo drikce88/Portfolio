@@ -7,9 +7,9 @@ import reactLogo from "../../assets/images/react.webp";
 
 export default function Skills() {
   const skills = [
-    { name: "HTML", logo: htmlLogo, mastery: 90 },
-    { name: "CSS", logo: cssLogo, mastery: 80 },
-    { name: "SASS", logo: sassLogo, mastery: 75 },
+    { name: "HTML", logo: htmlLogo, mastery: 95 },
+    { name: "CSS", logo: cssLogo, mastery: 90 },
+    { name: "SASS", logo: sassLogo, mastery: 85 },
     { name: "JavaScript", logo: jsLogo, mastery: 85 },
     { name: "React", logo: reactLogo, mastery: 90 },
   ];

@@ -6,7 +6,7 @@
   align-items: center;
   @include bg-color;
   @include font-color;
-  min-height: 450px;
+  min-height: 470px;
 
   h2 {
     font-size: 2em;
@@ -27,10 +27,24 @@
     margin-top: 5px;
     font-weight: bold;
   }
+
+  & input {
+    width: 250px;
+    height: 25px;
+    @include bg-color2;
+    @include font-color2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
+  }
 }
 
 .message-input {
   height: 100px;
+  width: 250px;
+  @include bg-color2;
+  @include font-color2;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(10, 79, 1, 0.8);
 }
 
 .send-button {
@@ -59,6 +73,7 @@
   border-radius: 25px;
   padding: 20px;
   height: 150px;
+  width: 250px;
   margin-top: 50px;
   padding-top: 0px;
   @media screen and (max-width: 600px) {
