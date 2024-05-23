@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import projects from "../../../public/projects.json";
+import projects from "../../../src/projects.json";
 import github from "../../assets/images/github.webp";
 
 export default function Projects() {
