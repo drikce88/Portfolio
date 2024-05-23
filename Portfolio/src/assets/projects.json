@@ -1,56 +1,56 @@
 [
     {
         "nom": "Booki",
-        "image": "../../assets/images/booki.webp",
+        "image": "/Portfolio/src/assets/images/booki.webp",
         "technologies": ["HTML5", "CSS3"],
         "description": "L’entreprise souhaitait développer un site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site en HTML et CSS. ",
         "lienGitHub": "https://github.com/drikce88/Booki_Ransinangue_Cedric.git"
     },
     {
         "nom": "ohmyfood",
-        "image": "../../assets/images/ohmyfood.webp",
+        "image": "/Portfolio/src/assets/images/ohmyfood.webp",
         "technologies": ["HTML5", "CSS3", "SASS"],
         "description": "Cette mission était de développer en mobile first un site qui répertorie les menus de différents restaurants gastronomiques.",
         "lienGitHub": "https://github.com/drikce88/ohmyfood.git"
     },
     {
         "nom": "Print-it",
-        "image": "../../assets/images/print-it.webp",
+        "image": "/Portfolio/src/assets/images/print-it.webp",
         "technologies": ["HTML5", "CSS3", "JAVASCRIPT"],
         "description": "Cette mission consistait à intégrer un carrousel d'images au site web déjà existant. ",
         "lienGitHub": "https://github.com/drikce88/Print-it-JS-main.git"
     },
     {
         "nom": "Sophie Bluel",
-        "image": "../../assets/images/sophie.webp",
+        "image": "/Portfolio/src/assets/images/sophie.webp",
         "technologies": ["HTML5", "CSS3", "JAVASCRIPT"],
         "description": "Cette mission consistait à ajouter des fonctionnalités au portfolio d'une architecte, dont un filtre pour les différents projets, un système de connexion à un espace privé, puis une modal permettant d'ajouter et de supprimer des projets au portfolio.",
         "lienGitHub": "https://github.com/drikce88/Portfolio-architecte-sophie-bluel.git"
     },
     {
         "nom": "Kasa",
-        "image": "../../assets/images/kasa.webp",
+        "image": "/Portfolio/src/assets/images/kasa.webp",
         "technologies": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "REACT"],
         "description": "Kasa avait lancé une refonte totale de son site de location immobilière. J'ai été chargé d'intégrer tout le front-end en React, tout en respectant les différentes contraintes techniques.  ",
         "lienGitHub": "https://github.com/drikce88/Kasa.git"
     },
     {
         "nom": "Nina Carducci",
-        "image": "../../assets/images/nina.webp",
+        "image": "/Portfolio/src/assets/images/nina.webp",
         "technologies": ["HTML5", "CSS3", "JAVASCRIPT"],
         "description": "Cette mission consistait à optimiser le référencement du site d'une photographe. J'ai donc amélioré au maximum les différents scores d'audit Lighthouse, puis mis en place le référencement local du site. ",
         "lienGitHub": "https://github.com/drikce88/ninacarducci.github.io-main.git"
     },
     {
         "nom": "724events",
-        "image": "../../assets/images/724events.webp",
+        "image": "/Portfolio/src/assets/images/724events.webp",
         "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "REACT"],
         "description": "Pour cette mission, j'ai dû débugger le site d'une agence d'événementiel par le biais de tests unitaires et de tests fonctionnels. ",
         "lienGitHub": "https://github.com/drikce88/724events.git"
     },
     {
         "nom": "ArgentBank",
-        "image": "../../assets/images/argentbank.webp",
+        "image": "/Portfolio/src/assets/images/argentbank.webp",
         "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "REACT"],
         "description": "Lors de cette mission, j'ai implémenté le front-end d'une application bancaire puis j'ai conçu les fonctionnalités permettant aux utilisateurs de se connecter à leur espace personnel et de modifier leur nom d'utilisateur. ",
         "lienGitHub": "https://github.com/drikce88/ArgentBank.git"
