@@ -1,9 +1,9 @@
 import React from "react";
-import htmlLogo from "../../../public/assets/images/html5.webp";
-import cssLogo from "../../../public/assets/images/css3.webp";
-import sassLogo from "../../../public/assets/images/sass.webp";
-import jsLogo from "../../../public/assets/images/javascript.webp";
-import reactLogo from "../../../public/assets/images/react.webp";
+import htmlLogo from "../../assets/html5.webp";
+import cssLogo from "../../assets/css3.webp";
+import sassLogo from "../../assets/sass.webp";
+import jsLogo from "../../assets/javascript.webp";
+import reactLogo from "../../assets/react.webp";
 
 export default function Skills() {
   const skills = [

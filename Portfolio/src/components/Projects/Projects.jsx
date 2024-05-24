@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import projects from "../../../src/projects.json";
-import github from "../../../public/assets/images/github.webp";
+import projects from "../../projects.json";
+import github from "../../assets/github.webp";
+
 
 export default function Projects() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 4;
-
+  const pathname = window.location.pathname;
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = projects.slice(indexOfFirstItem, indexOfLastItem);
@@ -23,7 +24,7 @@ export default function Projects() {
           <div key={index} className="project-card">
             <img
               className="project-img"
-              src={project.image}
+              src={pathname + "/src/assets/" +  project.image}
               alt={`${project.nom} logo`}
             />
             <h2>{project.nom}</h2>

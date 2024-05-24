@@ -1,4 +1,4 @@
-import portrait from "../../../public/assets/images/moi.webp";
+import portrait from "../../assets/moi.webp";
 
 export default function About() {
   return (
