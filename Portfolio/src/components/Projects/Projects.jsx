@@ -16,6 +16,14 @@ export default function Projects() {
     pages.push(i);
   }
 
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    const element = document.getElementById('projects');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="projects" className="projects">
       <h2>Projets</h2>
@@ -51,7 +59,9 @@ export default function Projects() {
       </div>
       <div className="pagination">
         {pages.map((number) => (
-          <button key={number} onClick={() => setCurrentPage(number)}>
+          <button key={number} onClick={() => handlePageChange(number)}
+          className={number === currentPage ? 'active' : ''}
+          >
             {number}
           </button>
         ))}
