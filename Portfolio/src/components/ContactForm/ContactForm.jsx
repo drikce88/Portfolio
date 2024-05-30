@@ -11,10 +11,10 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_za0xmpw",
-        "template_qxpd139",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         e.target,
-        "Y8YvzrZ4AY7T3xpal"
+        import.meta.env.VITE_EMAILJS_USER_ID
       )
       .then(
         (result) => {
